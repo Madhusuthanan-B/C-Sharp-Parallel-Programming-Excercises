@@ -8,19 +8,33 @@ namespace CreatingTasks
         public static void Write(char c)
         {
             int i = 1000;
-            while(i --> 0)
+            while (i-- > 0)
             {
                 Console.Write(c);
             }
         }
+
+        public static void Write(object o)
+        {
+            int i = 1000;
+            while (i-- > 0)
+            {
+                Console.Write(o);
+            }
+        }
+
         static void Main(string[] args)
         {
-            // Making a task and starting it immediately
             Task.Factory.StartNew(() => Write('.'));
 
-            // Creating a task and starting it later
-            var t = new Task(() => Write('?'));
-            t.Start();
+            var t1 = new Task(() => Write('?'));
+            t1.Start();
+
+            var t2 = new Task(() => Write("foo"));
+            t2.Start();
+
+            Task t3 = new Task(Write, "moo");
+            t3.Start();
 
             Write('-');
 

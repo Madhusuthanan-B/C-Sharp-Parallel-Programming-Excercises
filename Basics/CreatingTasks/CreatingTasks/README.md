@@ -1,6 +1,5 @@
 
-# Creating Tasks
-Each tasks will be running on a different thread. 
+## Learning
 
-In this example, we can see that we have two tasks that run on different threads
-and one task that run on main thread.
+- Each task will be running on a different thread
+- Different ways to create tasks
