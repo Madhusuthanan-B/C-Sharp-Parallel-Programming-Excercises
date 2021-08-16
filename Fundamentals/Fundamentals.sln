@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReturnValueFromTask", "Retu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{0998569D-3EED-462D-B025-62751D6F4352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeCancellation", "CompositeCancellation\CompositeCancellation.csproj", "{1D4B1D37-3CB8-4E98-8657-8B73A6F980CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeCancellation", "CompositeCancellation\CompositeCancellation.csproj", "{1D4B1D37-3CB8-4E98-8657-8B73A6F980CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingWithinTask", "WaitingWithinTask\WaitingWithinTask.csproj", "{8B6196E8-5411-4FFD-92A9-9A0D943CA0C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitingWithinTask", "WaitingWithinTask\WaitingWithinTask.csproj", "{8B6196E8-5411-4FFD-92A9-9A0D943CA0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTasks", "WaitingForTasks\WaitingForTasks.csproj", "{A11BEF49-0A1F-4D3C-9754-32FE1A0E2DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8B6196E8-5411-4FFD-92A9-9A0D943CA0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B6196E8-5411-4FFD-92A9-9A0D943CA0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B6196E8-5411-4FFD-92A9-9A0D943CA0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11BEF49-0A1F-4D3C-9754-32FE1A0E2DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11BEF49-0A1F-4D3C-9754-32FE1A0E2DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11BEF49-0A1F-4D3C-9754-32FE1A0E2DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11BEF49-0A1F-4D3C-9754-32FE1A0E2DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
