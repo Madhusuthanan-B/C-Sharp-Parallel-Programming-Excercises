@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSectionsWithClassicExample", "..\CriticalSectionsWithClassicExample\CriticalSectionsWithClassicExample.csproj", "{E527507E-E6B7-4B5C-9D84-0AA1E5638C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticalSectionsWithClassicExample", "..\CriticalSectionsWithClassicExample\CriticalSectionsWithClassicExample.csproj", "{E527507E-E6B7-4B5C-9D84-0AA1E5638C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{A6D03DDD-5D4C-45DB-908D-48E4770191B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E527507E-E6B7-4B5C-9D84-0AA1E5638C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E527507E-E6B7-4B5C-9D84-0AA1E5638C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E527507E-E6B7-4B5C-9D84-0AA1E5638C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
