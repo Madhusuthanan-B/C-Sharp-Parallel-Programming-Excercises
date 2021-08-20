@@ -24,6 +24,7 @@ namespace CriticalSectionsWithClassicExample
                 Balance += amount;
             }
         }
+
         public void Withdraw(int amount)
         {
             lock (padlock)
@@ -32,6 +33,7 @@ namespace CriticalSectionsWithClassicExample
             }
         }
     }
+
     class Program
     {
         static void Main(string[] args)

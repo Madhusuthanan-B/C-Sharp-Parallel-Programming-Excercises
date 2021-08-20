@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticalSectionsWithClassic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{A6D03DDD-5D4C-45DB-908D-48E4770191B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SprinLockAndRecursion", "SprinLockAndRecursion\SprinLockAndRecursion.csproj", "{27D01E70-A016-4158-B60D-2715D8ADEF21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D03DDD-5D4C-45DB-908D-48E4770191B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D01E70-A016-4158-B60D-2715D8ADEF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D01E70-A016-4158-B60D-2715D8ADEF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D01E70-A016-4158-B60D-2715D8ADEF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D01E70-A016-4158-B60D-2715D8ADEF21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
