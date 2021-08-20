@@ -7,6 +7,7 @@ namespace CriticalSectionsWithClassicExample
 
     public class BankAccount
     {
+        public object padlock = new object();
         public int Balance { get; private set; }
         public void Deposit(int amount)
         {
@@ -15,11 +16,20 @@ namespace CriticalSectionsWithClassicExample
             // op2: updateBalance(temp)
             // Between op1 and op2, something can happen that corrupts the result
             // Hence we need to setup a critical section
-            Balance += amount;
+
+            // This means that, only one thread can work on this at a time.
+            // Another thread can use this variable when it is released
+            lock (padlock)
+            {
+                Balance += amount;
+            }
         }
         public void Withdraw(int amount)
         {
-            Balance -= amount;
+            lock (padlock)
+            {
+                Balance -= amount;
+            }
         }
     }
     class Program
@@ -49,6 +59,7 @@ namespace CriticalSectionsWithClassicExample
             }
             Task.WaitAll(tasks.ToArray());
             Console.WriteLine($"Balance in acount {bankAccount.Balance}");
+            Console.ReadKey();
         }
     }
 }
