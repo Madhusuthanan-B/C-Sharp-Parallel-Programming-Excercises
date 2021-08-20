@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticalSectionsWithClassic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{A6D03DDD-5D4C-45DB-908D-48E4770191B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SprinLockAndRecursion", "SprinLockAndRecursion\SprinLockAndRecursion.csproj", "{27D01E70-A016-4158-B60D-2715D8ADEF21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLock", "SprinLockAndRecursion\SpinLock.csproj", "{27D01E70-A016-4158-B60D-2715D8ADEF21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
