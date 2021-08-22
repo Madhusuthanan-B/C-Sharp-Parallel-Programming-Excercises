@@ -21,6 +21,7 @@ namespace ReaderWriterLockExample
 
     class Program
     {
+        // Setting LockRecursionPolicy.SupportsRecursion not recommended as it is harder to debug / find out what went wrong
         static ReaderWriterLockSlim padlock = new ReaderWriterLockSlim(LockRecursionPolicy.SupportsRecursion);
         static Random randomNumber = new Random();
 
