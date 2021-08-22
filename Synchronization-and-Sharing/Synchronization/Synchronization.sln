@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockRecursionExample", "Loc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexExample", "Mutex\MutexExample.csproj", "{2EED7A1F-84BA-4FAC-B007-B41FA8299881}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLockExample", "ReaderWriterLockExample\ReaderWriterLockExample.csproj", "{BB3E3F4B-E083-46E4-875C-A93B65DEF01E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2EED7A1F-84BA-4FAC-B007-B41FA8299881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EED7A1F-84BA-4FAC-B007-B41FA8299881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EED7A1F-84BA-4FAC-B007-B41FA8299881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3E3F4B-E083-46E4-875C-A93B65DEF01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3E3F4B-E083-46E4-875C-A93B65DEF01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3E3F4B-E083-46E4-875C-A93B65DEF01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3E3F4B-E083-46E4-875C-A93B65DEF01E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
