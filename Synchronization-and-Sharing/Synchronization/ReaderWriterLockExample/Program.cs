@@ -38,7 +38,7 @@ namespace ReaderWriterLockExample
 
                     padlock.EnterUpgradeableReadLock();
 
-                    if(i%2 == 0)
+                    if (i % 2 == 0)
                     {
                         padlock.EnterWriteLock();
                         x = 123;
@@ -66,7 +66,7 @@ namespace ReaderWriterLockExample
                 });
             }
 
-            while(true)
+            while (true)
             {
                 Console.ReadKey();
                 padlock.EnterWriteLock();
